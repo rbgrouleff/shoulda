@@ -4,7 +4,7 @@ shared_dependencies = proc do
   gem 'sqlite3'
   gem 'rspec', '~> 3.0'
   gem 'shoulda-context'
-  gem 'shoulda-matchers', '~> 3.0'
+  gem 'shoulda-matchers', '~> 4.0.0.rc1'
 end
 
 appraise '4.2' do
